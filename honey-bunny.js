@@ -10,7 +10,7 @@ fetch("data.json")
   });
 
 const generateAffirmation = () => {
-  return `No, I love <span class="emphasis">you</span> more, my ${randomItem(data.adjectives)} ${randomItem(data.nouns)}.`;
+  return `No, I love <span class="emphasis">you</span> more, my ${randomItem(data.adjectives)} ${randomItem(data.adjectives)} ${randomItem(data.nouns)}!!!`;
 };
 
 const animateText = async (element, text, interval) => {
