@@ -1,94 +1,152 @@
-  <!DOCTYPE html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@200;300;400;500;700&family=DM+Serif+Display:ital@0;1&display=swap"
-    rel="stylesheet"
-    />
-    <!-- Styles -->
-    <link rel="stylesheet" href="style/tokens.css" />
-    <link rel="stylesheet" href="style/reset.css" />
-    <link rel="stylesheet" href="style/style.css" />
-    <!-- HTML Meta Tags -->
-    <title>Your next design strategy by Barry Prendergast</title>
-    <meta name="description" content="Don't leave success to chance! If you need a tailored strategic product design approach that drives positive outcomes for your business and your users, talk to Barry.">
-    <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="https://renderedghost.github.io/honey-bunny/">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Your next design strategy by Barry Prendergast">
-    <meta property="og:description" content="Don't leave success to chance! If you need a tailored strategic product design approach that drives positive outcomes for your business and your users, talk to Barry.">
-    <meta property="og:image" content="">
-    <!-- Twitter Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta property="twitter:domain" content="renderedghost.github.io">
-    <meta property="twitter:url" content="https://renderedghost.github.io/honey-bunny/">
-    <meta name="twitter:title" content="Your next design strategy by Barry Prendergast">
-    <meta name="twitter:description" content="Don't leave success to chance! If you need a tailored strategic product design approach that drives positive outcomes for your business and your users, talk to Barry.">
-    <meta name="twitter:image" content="">
-    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
-  </head>
-  <body>
-    <main>
-      <h1 class="overline">Your next design strategy is:</h1>
-      <p id="display"></p>
-      <div class="button-group">
-        <button class="bp--button emphasis-low large" id="generate"><span class="fa-sharp fa-regular fa-shuffle"></span> New Strategy</button>
-      </div>
-    </main>
-    <aside>
-      <h2>Don't leave success to chance!</h2>
-      <p>
-        Your product needs a tailored strategic design approach to achieve significant sustainable outcomes for your business <em>and</em> your customers.
-      </p>
-      <p>
-        Talk to a designer who understands your mission and vision and can translate your goals into growth.
-      </p>
-      <div class="card">
-        <div class="tooltip"><img src="avatar.jpg" data-tooltip="Hello There! 👋" class="avatar"></img></div>
-        <div class="card-content">
-          <p class="name">Barry Prendergast</p>
-          <p class="meta">Product Designer &amp; Leader &VerticalSeparator; Berlin, Germany</p>
-        </div>
-        <div class="button-group">
-          <button class="bp--button" id="contact"><span class="fa-sharp fa-regular fa-envelope"></span> Contact</button>
-          <!-- <a href="https://barryprendergast.webflow.io/" target="_blank" class="bp-link">Portfolio <span class="fa-sharp fa-regular fa-arrow-up-right-from-square"></span></a> -->
-          <a href="https://www.linkedin.com/in/barrymprendergast/"target="_blank"class="bp-link"><span class="fa-brands fa-linkedin"></span> LinkedIn</a>
-          <a href="https://medium.com/@render_ghost" target="_blank" class="bp-link" ><span class="fa-brands fa-medium"></span> Medium</a>
-        </div>
-      </div>
-      <!-- <hr class="bp--divider"> -->
-      <div class="meta context">Copyright © 2023 &VerticalSeparator; Barry Prendergast &VerticalSeparator; <a href="https://github.com/renderedghost/strategy-schmategy" target="_blank">View on Github <span class="fa-sharp fa-regular fa-arrow-up-right-from-square"></span></a></div>
-      <!-- <div class="button-group">
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@200;300;400;500;700&family=DM+Serif+Display:ital@0;1&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Styles -->
+		<link rel="stylesheet" href="style/tokens.css" />
+		<link rel="stylesheet" href="style/reset.css" />
+		<link rel="stylesheet" href="style/style.css" />
+		<!-- HTML Meta Tags -->
+		<title>Your next design strategy by Barry Prendergast</title>
+		<meta
+			name="description"
+			content="Don't leave success to chance! If you need a tailored strategic product design approach that drives positive outcomes for your business and your users, talk to Barry."
+		/>
+		<!-- Facebook Meta Tags -->
+		<meta
+			property="og:url"
+			content="https://renderedghost.github.io/honey-bunny/"
+		/>
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Spread Love with Honey Bunny" />
+		<meta
+			property="og:description"
+			content="Generate silly, over-the-top love affirmations to brighten someone's day with Honey Bunny!"
+		/>
+		<meta property="og:image" content="" />
+		<!-- Twitter Meta Tags -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta property="twitter:domain" content="renderedghost.github.io" />
+		<meta
+			property="twitter:url"
+			content="https://renderedghost.github.io/honey-bunny/"
+		/>
+		<meta name="twitter:title" content="Spread Love with Honey Bunny" />
+		<meta
+			name="twitter:description"
+			content="Generate silly, over-the-top love affirmations to brighten someone's day with Honey Bunny!"
+		/>
+		<meta name="twitter:image" content="" />
+		<!-- Meta Tags Generated via https://www.opengraph.xyz -->
+	</head>
+	<body>
+		<main>
+			<h1 class="overline">Your next design strategy is:</h1>
+			<p id="display"></p>
+			<div class="button-group">
+				<button class="bp--button emphasis-low large" id="generate">
+					<span class="fa-sharp fa-regular fa-shuffle"></span> New
+					Strategy
+				</button>
+			</div>
+		</main>
+		<aside>
+			<h2>Don't leave success to chance!</h2>
+			<p>
+				Your product needs a tailored strategic design approach to
+				achieve significant sustainable outcomes for your business
+				<em>and</em> your customers.
+			</p>
+			<p>
+				Talk to a designer who understands your mission and vision and
+				can translate your goals into growth.
+			</p>
+			<div class="card">
+				<div class="tooltip">
+					<img
+						src="avatar.jpg"
+						data-tooltip="Hello There! 👋"
+						class="avatar"
+					/>
+				</div>
+				<div class="card-content">
+					<p class="name">Barry Prendergast</p>
+					<p class="meta">
+						Product Designer &amp; Leader &VerticalSeparator;
+						Berlin, Germany
+					</p>
+				</div>
+				<div class="button-group">
+					<button class="bp--button" id="contact">
+						<span class="fa-sharp fa-regular fa-envelope"></span>
+						Contact
+					</button>
+					<!-- <a href="https://barryprendergast.webflow.io/" target="_blank" class="bp-link">Portfolio <span class="fa-sharp fa-regular fa-arrow-up-right-from-square"></span></a> -->
+					<a
+						href="https://www.linkedin.com/in/barrymprendergast/"
+						target="_blank"
+						class="bp-link"
+						><span class="fa-brands fa-linkedin"></span> LinkedIn</a
+					>
+					<a
+						href="https://medium.com/@render_ghost"
+						target="_blank"
+						class="bp-link"
+						><span class="fa-brands fa-medium"></span> Medium</a
+					>
+				</div>
+			</div>
+			<!-- <hr class="bp--divider"> -->
+			<div class="meta context">
+				Copyright © 2023 &VerticalSeparator; Barry Prendergast
+				&VerticalSeparator;
+				<a
+					href="https://github.com/renderedghost/strategy-schmategy"
+					target="_blank"
+					>View on Github
+					<span
+						class="fa-sharp fa-regular fa-arrow-up-right-from-square"
+					></span
+				></a>
+			</div>
+			<!-- <div class="button-group">
         <button class="bp--button" id="contact">Contact <span class="fa-sharp fa-regular fa-envelope"></span></button>
         <a href="https://barryprendergast.webflow.io/" target="_blank" class="bp-link">Portfolio <span class="fa-sharp fa-regular fa-arrow-up-right-from-square"></span></a>
         <a href="https://www.linkedin.com/in/barrymprendergast/"target="_blank"class="bp-link">LinkedIn <span class="fa-sharp fa-regular fa-arrow-up-right-from-square"></span></a>
         <a href="https://medium.com/@render_ghost" target="_blank" class="bp-link" >Medium <span class="fa-sharp fa-regular fa-arrow-up-right-from-square"></span></a>
       </div> -->
-    </aside>
-    <!-- Scripts -->
-    <script src="honey-bunny.js"></script>
-    <script src="https://kit.fontawesome.com/e96717ceb7.js" crossorigin="anonymous"></script>
-    <div id="tooltip" class="tooltip-container"></div>
-    <script>
-      const tooltipElements = document.querySelectorAll('.tooltip');
-      const tooltipContainer = document.getElementById('tooltip');
-      tooltipElements.forEach((element) => {
-        element.addEventListener('mouseover', (event) => {
-          tooltipContainer.textContent = event.target.getAttribute('data-tooltip');
-          tooltipContainer.classList.add('visible');
-        });
-        element.addEventListener('mousemove', (event) => {
-          tooltipContainer.style.left = event.pageX + 10 + 'px';
-          tooltipContainer.style.top = event.pageY + 10 + 'px';
-        });
-        element.addEventListener('mouseout', () => {
-          tooltipContainer.classList.remove('visible');
-        });
-      });
-    </script>
-  </body>
-  </html>
+		</aside>
+		<!-- Scripts -->
+		<script src="honey-bunny.js"></script>
+		<script
+			src="https://kit.fontawesome.com/e96717ceb7.js"
+			crossorigin="anonymous"
+		></script>
+		<div id="tooltip" class="tooltip-container"></div>
+		<script>
+			const tooltipElements = document.querySelectorAll('.tooltip');
+			const tooltipContainer = document.getElementById('tooltip');
+			tooltipElements.forEach(element => {
+				element.addEventListener('mouseover', event => {
+					tooltipContainer.textContent =
+						event.target.getAttribute('data-tooltip');
+					tooltipContainer.classList.add('visible');
+				});
+				element.addEventListener('mousemove', event => {
+					tooltipContainer.style.left = event.pageX + 10 + 'px';
+					tooltipContainer.style.top = event.pageY + 10 + 'px';
+				});
+				element.addEventListener('mouseout', () => {
+					tooltipContainer.classList.remove('visible');
+				});
+			});
+		</script>
+	</body>
+</html>
