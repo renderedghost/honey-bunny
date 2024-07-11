@@ -10,7 +10,7 @@ fetch("data.json")
   });
 
 const generateAffirmation = () => {
-  return `No, I love <span class="emphasis">you</span> more, my ${randomItem(data.adjectives)} ${randomItem(data.adjectives)} ${randomItem(data.nouns)}!!!`;
+  return `No, I love <span class="emphasis">you</span> more, my ${randomItem(data.adjectives)} ${randomItem(data.nouns)}!!!`;
 };
 
 const animateText = async (element, text, interval) => {
@@ -27,7 +27,7 @@ const animateText = async (element, text, interval) => {
 const generateAndDisplayAffirmation = () => {
   const affirmation = generateAffirmation();
   const displayElement = document.getElementById("display");
-  animateText(displayElement, affirmation, 100);
+  animateText(displayElement, affirmation, 50);
 };
 
 // Obfuscate email address

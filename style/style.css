@@ -55,8 +55,8 @@ aside {
 
 main {
 	background-color: var(--c-bg-secondary);
-	width: 66vw;
-	max-width: 66vw;
+	/* width: 66vw;
+	max-width: 66vw; */
 	padding: 4rem;
 }
 
@@ -65,6 +65,7 @@ aside {
 	width: 34vw;
 	max-width: 34vw;
 	padding: 4rem 2rem;
+	display: none;
 }
 
 p {
@@ -132,6 +133,12 @@ a:active {
 .bp--button.emphasis-low:active {
 	color: var(--c-link-secondary-active);
 	background-color: var(--c-link-fill-primary);
+}
+
+button.pinned {
+	position: fixed;
+	bottom: 2rem;
+	right: 2rem;
 }
 
 #display {
