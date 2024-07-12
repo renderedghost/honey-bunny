@@ -1,25 +1,25 @@
 /* Core Colours */
 :root {
 	/* MONO */
-	--s-mono-100: hsl(356, 100%, 100%);
-	--s-mono-98: hsl(356, 100%, 98%);
-	--s-mono-96: hsl(356, 24%, 96%);
-	--s-mono-76: hsl(356, 16%, 76%);
-	--s-mono-38: hsl(356, 16%, 38%);
-	--s-mono-24: hsl(356, 16%, 24%);
-	--s-mono-0: hsl(356, 16%, 0%);
+	--s-mono-100: hsl(0, 100%, 100%);
+	--s-mono-98: hsl(0, 100%, 98%);
+	--s-mono-96: hsl(0, 24%, 96%);
+	--s-mono-76: hsl(0, 16%, 76%);
+	--s-mono-38: hsl(0, 16%, 38%);
+	--s-mono-24: hsl(0, 16%, 24%);
+	--s-mono-0: hsl(0, 16%, 0%);
 
 	/* RED */
-	--s-red-900: #c50000;
-	--s-red-800: #d20005;
-	--s-red-700: #df0010;
-	--s-red-600: #f10015;
-	--s-red-500: #ff0011;
-	--s-red-400: #fb3338;
-	--s-red-300: #f16161;
-	--s-red-200: #f9908e;
-	--s-red-100: #ffc7cc;
-	--s-red-50: #ffe9ec;
+	--s-red-900: hsl(0, 100%, 20%);
+	--s-red-800: hsl(0, 100%, 27.5%);
+	--s-red-700: hsl(0, 100%, 35%);
+	--s-red-600: hsl(0, 100%, 42.5%);
+	--s-red-500: hsl(0, 100%, 50%);
+	--s-red-400: hsl(0, 92%, 59%);
+	--s-red-300: hsl(0, 74%, 68%);
+	--s-red-200: hsl(0, 80%, 77%);
+	--s-red-100: hsl(0, 100%, 86%);
+	--s-red-50: hsl(0, 100%, 95%);
 
 	/* YELLOW */
 	--s-yellow: #ffee00;
@@ -28,8 +28,10 @@
 /* Semantic Colours */
 
 :root {
-	--c-bg: var(--s-red-100);
-	--c-bg-secondary: var(--s-red-50);
+	--c-surface-primary: var(--s-red-50);
+	--c-surface-secondary: var(--s-red-100);
+	--c-surface-tertiary: var(--s-red-200);
+
 	--c-link-text-primary: var(--s-red-900);
 	--c-link-text-primary-hover: var(--s-red-500);
 	--c-link-text-primary-active: var(--s-red-900);
@@ -44,7 +46,8 @@
 	--c-text-inverted: var(--s-mono-100);
 	--c-text-secondary: var(--s-mono-38);
 	--c-border: var(--s-mono-76);
-	--c-highlight: var(--s-yellow);
+	--c-highlight-text: var(--s-mono-100);
+	--c-highlight-fill: var(--s-red-500);
 	--box-shadow: 2px 2px 10px;
 }
 
@@ -67,7 +70,10 @@
 	--gap-lx: 2rem;
 	--gap-lxx: 4rem;
 	/* Shapes */
-	--border-radius: 3px;
+	--border-radius-sx: 0.25rem;
+	--border-radius-s: 0.5rem;
+	--border-radius: 1rem;
+	--border-radius-l: 2rem;
 	--border-radius-circle: 100%;
 }
 
@@ -76,7 +82,7 @@
 	/* Family */
 	--font-sans: 'DM Sans', sans-serif;
 	--font-serif: 'DM Serif Display', serif;
-	--font-cursive: 'Playwrite AU TAS', cursive;
+	--font-cursive: 'Playwrite DE Grund', cursive;
 	/* Font Sizes */
 	--font-size-html: 18px;
 	--font-size-sxx: 0.5rem;
@@ -89,7 +95,7 @@
 	--font-size-lxxx: 2.5rem;
 	--font-size-lxxxx: 2.75rem;
 	--font-size-lxxxxx: 3rem;
-	--font-size-lxxxxxx: 5rem;
+	--font-size-lxxxxxx: 4rem;
 	/* Line Height */
 	--line-height-none: 1;
 	--line-height-compact: 1.2;
