@@ -4,6 +4,7 @@ html {
 
 body {
 	font-size: var(--font-size);
+	font-optical-sizing: auto;
 	line-height: var(--line-height-spacious);
 	font-family: var(--font-sans);
 	font-weight: 400;
@@ -36,8 +37,9 @@ footer,
 header,
 main,
 aside {
-	margin: 0 auto;
+	margin: 0;
 	max-width: var(--width-max);
+	width: var(--width-max);
 	padding: 0;
 }
 
@@ -55,8 +57,6 @@ aside {
 
 main {
 	background-color: var(--c-bg-secondary);
-	/* width: 66vw;
-	max-width: 66vw; */
 	padding: 4rem;
 }
 
@@ -142,12 +142,12 @@ button.pinned {
 }
 
 #display {
-	font-size: var(--font-size-lxxxxx);
+	font-size: var(--font-size-lxxxxxx);
 	line-height: var(--line-height-spacious);
-	/* font-weight: 300; */
-	font-family: var(--font-serif);
-	font-style: italic;
+	font-weight: 200;
+	font-family: var(--font-cursive);
 	margin-bottom: var(--gap-lx);
+	color: var(--s-red-600);
 }
 
 .overline {
