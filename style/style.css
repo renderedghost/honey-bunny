@@ -27,6 +27,10 @@ body {
 	background-color: var(--c-highlight-fill);
 }
 
+.emphasis {
+	font-style: italic;
+}
+
 *:focus-visible {
 	outline-offset: 2px;
 	border-radius: var(--border-radius);
