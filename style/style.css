@@ -6,10 +6,10 @@ body {
 	font-size: var(--font-size);
 	font-optical-sizing: auto;
 	line-height: var(--line-height-spacious);
-	font-family: var(--font-sans);
+	font-family: var(--font-cursive);
 	font-weight: 400;
 	color: var(--c-text);
-	background-color: var(--c-bg);
+	background-color: var(--c-surface-tertiary);
 	height: 100vh;
 	gap: 0;
 	display: flex;
@@ -23,8 +23,8 @@ body {
 
 .highlight,
 ::selection {
-	color: var(--c-text);
-	background-color: var(--c-highlight);
+	color: var(--c-highlight-text);
+	background-color: var(--c-highlight-fill);
 }
 
 *:focus-visible {
@@ -56,8 +56,14 @@ aside {
 }
 
 main {
-	background-color: var(--c-bg-secondary);
+	background-color: var(--c-surface-secondary);
 	padding: 4rem;
+}
+
+.response {
+	background-color: var(--c-surface-primary);
+	padding: 4rem;
+	border-radius: var(--border-radius-sx);
 }
 
 aside {
@@ -144,7 +150,7 @@ button.pinned {
 #display {
 	font-size: var(--font-size-lxxxxxx);
 	line-height: var(--line-height-spacious);
-	font-weight: 200;
+	font-weight: 300;
 	font-family: var(--font-cursive);
 	margin-bottom: var(--gap-lx);
 	color: var(--s-red-600);
