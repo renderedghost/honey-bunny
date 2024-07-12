@@ -76,6 +76,7 @@
 	/* Family */
 	--font-sans: 'DM Sans', sans-serif;
 	--font-serif: 'DM Serif Display', serif;
+	--font-cursive: 'Playwrite AU TAS', cursive;
 	/* Font Sizes */
 	--font-size-html: 18px;
 	--font-size-sxx: 0.5rem;
@@ -88,6 +89,7 @@
 	--font-size-lxxx: 2.5rem;
 	--font-size-lxxxx: 2.75rem;
 	--font-size-lxxxxx: 3rem;
+	--font-size-lxxxxxx: 5rem;
 	/* Line Height */
 	--line-height-none: 1;
 	--line-height-compact: 1.2;
