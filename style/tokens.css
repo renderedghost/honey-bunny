@@ -31,7 +31,6 @@
 	--c-surface-primary: var(--s-red-50);
 	--c-surface-secondary: var(--s-red-100);
 	--c-surface-tertiary: var(--s-red-200);
-
 	--c-link-text-primary: var(--s-red-900);
 	--c-link-text-primary-hover: var(--s-red-500);
 	--c-link-text-primary-active: var(--s-red-900);
@@ -42,7 +41,7 @@
 	--c-link-secondary-hover: var(--s-red-50);
 	--c-link-secondary-active: var(--s-red-50);
 	--c-shadow: #f4f4f4;
-	--c-text: var(--s-mono-0);
+	--c-text: var(--s-red-600);
 	--c-text-inverted: var(--s-mono-100);
 	--c-text-secondary: var(--s-mono-38);
 	--c-border: var(--s-mono-76);
@@ -56,24 +55,20 @@
 	/* Align */
 	--justify-important: center;
 	--justify-normal: left;
+
 	/* Sizes */
 	--width-card: 285px;
-	--width-card-medium: 460px;
-	--width-card-wide: 800px;
-	--width-content: 1044px;
 	--width-max: 100%;
+
 	/* Spaces */
-	--gap-sx: 0.25rem;
-	--gap-s: 0.5rem;
-	--gap: 1rem;
-	--gap-l: 1.5rem;
-	--gap-lx: 2rem;
-	--gap-lxx: 4rem;
+	--gap-s: 1rem;
+	--gap: 2rem;
+	--gap-l: 4rem;
+
 	/* Shapes */
-	--border-radius-sx: 0.25rem;
 	--border-radius-s: 0.5rem;
 	--border-radius: 1rem;
-	--border-radius-l: 2rem;
+	--border-radius-l: 1rem;
 	--border-radius-circle: 100%;
 }
 
@@ -81,21 +76,14 @@
 :root {
 	/* Family */
 	--font-sans: 'DM Sans', sans-serif;
-	--font-serif: 'DM Serif Display', serif;
 	--font-cursive: 'Playwrite DE Grund', cursive;
+
 	/* Font Sizes */
-	--font-size-html: 18px;
-	--font-size-sxx: 0.5rem;
-	--font-size-sx: 0.625rem;
-	--font-size-s: 0.75rem;
-	--font-size: 1rem;
-	--font-size-l: 1.25rem;
-	--font-size-lx: 1.5rem;
-	--font-size-lxx: 2rem;
-	--font-size-lxxx: 2.5rem;
-	--font-size-lxxxx: 2.75rem;
-	--font-size-lxxxxx: 3rem;
-	--font-size-lxxxxxx: 4rem;
+	--font-size-html: 16px;
+	--font-size-s: 1rem;
+	--font-size: 2rem;
+	--font-size-l: 4rem;
+
 	/* Line Height */
 	--line-height-none: 1;
 	--line-height-compact: 1.2;
