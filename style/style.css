@@ -95,6 +95,15 @@ body {
 	line-height: var(--line-height-comfortable);
 }
 
+.button-row {
+	display: flex;
+	gap: var(--gap);
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	flex-direction: row-reverse;
+	width: 100%;
+}
+
 p {
 	margin: 0;
 	padding: 0;
